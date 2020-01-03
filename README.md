@@ -1,17 +1,1 @@
-# M3DV
-Classification of 3D medical CT 
-
-助教需要运行的程序为src/eval.py
-##################################################
-How to run it:
-首先需要保证para1.pkl和para2.pkl与eval处于同级目录下
-usage:
-optional arguments:
-  -h, --help            show this help message and exit
-  -tp TESTSET_PATH, --TestSet_Path TESTSET_PATH
-                        测试集的路径，如test/
-  -sp SAVE_SCORE_PATH, --Save_Score_Path SAVE_SCORE_PATH
-                        保存score的路径，默认为score.npy
-###################################################
-example：eval.py -tp test\ -sp result.npy
-
+<div># M3DV</div><div>Classification of 3D medical CT</div><div><br></div><div>助教需要运行的程序为src/eval.py</div><div><br></div><div>How to run it:</div><div>首先需要保证para1.pkl和para2.pkl与eval处于同级目录下</div><div>usage:</div><div>optional arguments:</div><div>&nbsp; -h, --help &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;show this help message and exit</div><div>&nbsp; -tp TESTSET_PATH, --TestSet_Path TESTSET_PATH</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 测试集的路径，如test/</div><div>&nbsp; -sp SAVE_SCORE_PATH, --Save_Score_Path SAVE_SCORE_PATH</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 保存score的路径，默认为score.npy</div><div><br></div><div>example：eval.py -tp test\ -sp result.npy</div>
