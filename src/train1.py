@@ -38,7 +38,7 @@ train_loader = DataLoader(dataset=dealTrainset,
                           shuffle=True
                           )
 
-# 定义测试批处理数据
+# 定义验证批处理数据
 dealDevset = DealDevset()
 dev_loader = DataLoader(dataset=dealDevset,
                           batch_size=BATCH_SIZE,
